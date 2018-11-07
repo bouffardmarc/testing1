@@ -65,6 +65,7 @@ printf "\n" >>out.txt
 
 echo "***************************************************" >>out.txt
 echo  $(cat out.txt)
-rm out.txt
+
 mail -s "PAMINA/RUSALKA stats" bouffard.marc@gmail.com<<<$(cat out.txt);
 
+rm out.txt
