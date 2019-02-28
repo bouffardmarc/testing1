@@ -19,3 +19,4 @@ if [ ${loadinfo%.*} -gt $load_limit ]; then
 
 	mail -s "PAMINA: the load is larger than $load_limit" bouffard.marc@gmail.com<<<"The load is: ${loadinfo%.*} (maximum load: 40)";
 fi;
+#******************
